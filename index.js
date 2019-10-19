@@ -4,6 +4,7 @@
   const POSTER_URL = BASE_URL + '/posters/'
   const data = []
 
+
   const dataPanel = document.getElementById('data-panel')
 
   axios.get(INDEX_URL).then((response) => {

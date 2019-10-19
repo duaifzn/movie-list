@@ -8,6 +8,7 @@
   
     displayDataList (data)
   
+    
     // listen to data panel
     dataPanel.addEventListener('click', (event) => {
       if (event.target.matches('.btn-show-movie')) {
